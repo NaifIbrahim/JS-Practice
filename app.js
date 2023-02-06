@@ -49,7 +49,7 @@ if (Days == "Monday") {
 else if (Days == "Tuesday") {
     alert("Wings")
 }
-else if (Days == "Wedneday") {
+else if (Days == "Wednesday") {
     alert("Shoulder")
 }
 else if (Days == "Thursday") {
