@@ -27,5 +27,5 @@ console.log(groceries)
 
 
 
-groceries.slice(0,2)
-console.log(groceries)
+var myCopiedGrocery = groceries.slice(0,2)
+console.log(myCopiedGrocery)
