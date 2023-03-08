@@ -1,21 +1,21 @@
-alert ("JavaScript Practice")
+// alert ("JavaScript Practice")
 
-var name = "Naif"
-var nationality = "Pakistani"
-var jd = "Sales Manager"
+// var name = "Naif"
+// var nationality = "Pakistani"
+// var jd = "Sales Manager"
 
-alert (name)
-alert (nationality)
-alert (jd)
+// alert (name)
+// alert (nationality)
+// alert (jd)
 
-var age = 19
-alert (age)
+// var age = 19
+// alert (age)
 
-var ageAddedBySomeone = 6
-alert (ageAddedBySomeone)
+// var ageAddedBySomeone = 6
+// alert (ageAddedBySomeone)
 
-var totalAge =  age + ageAddedBySomeone
-alert (totalAge)
+// var totalAge =  age + ageAddedBySomeone
+// alert (totalAge)
 
 // var a = 1;
 // alert (a)  //1
@@ -29,38 +29,51 @@ alert (totalAge)
 
 // var firstName = prompt("Enter your first name")
 // var lastName = prompt("Enter your last name")
-var age = prompt("Enter your age")
+// var age = prompt("Enter your age")
 // var mobile_number = prompt("Enter your mobile number")
 
 // alert ("Your Details" + " " + firstName + " " + lastName + " " + age + " " + mobile_number)
  
-if(age >= 18){
-  alert("Congratulations! You Are Hired")
-}
-else {
-    alert("Sorry! You Are Not Hired")
-}
+// if(age >= 18){
+//   alert("Congratulations! You Are Hired")
+// }
+// else {
+//     alert("Sorry! You Are Not Hired")
+// }
 
-var Days = prompt("Which Day Workout You Want To Know?")
+// var Days = prompt("Which Day Workout You Want To Know?")
 
-if (Days == "Monday") {
-    alert("Chest")
-}
-else if (Days == "Tuesday") {
-    alert("Wings")
-}
-else if (Days == "Wednesday") {
-    alert("Shoulder")
-}
-else if (Days == "Thursday") {
-    alert("Biceps")
-}
-else if (Days == "Friday") {
-    alert("Triceps")
-}
-else if (Days == "Saturday") {
-    alert("Forearms+legs")
-}
-else  {
-    alert("Holiday")
+// if (Days == "Monday") {
+//     alert("Chest")
+// }
+// else if (Days == "Tuesday") {
+//     alert("Wings")
+// }
+// else if (Days == "Wednesday") {
+//     alert("Shoulder")
+// }
+// else if (Days == "Thursday") {
+//     alert("Biceps")
+// }
+// else if (Days == "Friday") {
+//     alert("Triceps")
+// }
+// else if (Days == "Saturday") {
+//     alert("Forearms+legs")
+// }
+// else  {
+//     alert("Holiday")
+// }
+
+// var exercise = "tumse na ho paigha ghar jao :p"
+
+// for(let a = 1; a < 13; a++) {
+//         console.log(exercise + " " + a)
+//   }
+
+
+var exercise = "tumse na ho paigha ghar jao :p"
+
+for(let a = 10; a==0; a--) {
+        console.log(exercise + " " + a)
 }

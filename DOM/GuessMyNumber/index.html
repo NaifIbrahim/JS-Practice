@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessMyNumber Game</title>
+    <link rel="icon" type="image/x-icon" href="GameLogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div style="display: flex; justify-content: space-between;">
+        <button><b>Again!</b></button>
+        <p><b>Between 1 and 20</b></p>
+    </div>
+    <div style="text-align: center;">
+        <h1>Guess my Number</h1>
+    </div>
+    <br>
+    <div
+        style="height: 100px; width: 100px; background-color: white; margin: 0 auto; color: black; display: flex; justify-content: center; align-items: center;border-radius: 10px;">
+        <h1>?</h1>
+    </div>
+    <div style="display: flex; margin-top: 100px;">
+        <div style="display: flex; flex-direction: column; width: 50%;">
+            <div style="width: 50%; margin: 0 auto;">
+                <input type="number" class="userInput" style="border-radius: 5px;">
+                <button class="checkButton"><b>Check</b></button>
+            </div>
+        </div>
+        <div style="width: 50%; text-align: center;" id="meraElement">
+            <h3>Start guessing ...</h3>
+            <h3>Score : <span class="score">20</span></h3>
+            <h3>High Score : <span class="highScore">0</span></h3>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
