@@ -28,6 +28,6 @@ checkButton.addEventListener('click', () => {
             score.textContent = +score.textContent - 1
         }
     } else {
-        console.log("sorry aap game nai khel saktey, please try again")
+        alert("sorry tou can't play anymore,please try again")
     }
 })
